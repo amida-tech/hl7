@@ -1,0 +1,24 @@
+{
+  "name": "hl7",
+  "version": "0.0.0",
+  "description": "Parsing HL7 into JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amida-tech/hl7.git"
+  },
+  "keywords": [
+    "hl7",
+    "json",
+    "parser"
+  ],
+  "author": "Dmitry Kachaev <dmitry.kachaev@gmail.com> (http://github.com/kachok)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/amida-tech/hl7/issues"
+  },
+  "homepage": "https://github.com/amida-tech/hl7"
+}
