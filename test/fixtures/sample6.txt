@@ -1,0 +1,6 @@
+MSH|^~\&|Sending																													
+
+ test|Sending test facility|Receiving test|Receiving test facility|09542013500P|SECURITY|ORU^R01|12345||2.5.1|||
+PID|||||John Dow||64121968|M|||Every town, every street||(206)3345232||||||987654321||
+OBR|1|845439^GHH OE|1045813^GHH LAB|15545^GLUCOSE|||101020114500|||||||||555-55-5555^PRIMARY^PATRICIA P^^^^MD^^|||||||||F|||||||444-44-4444^HIPPOCRATES^HOWARD H^^^^MD|||||
+OBX|1|SN|1554-5^GLUCOSE^POST 12H CFST:MCNC:PT:SER/PLAS:QN||^182|mg/dl|70_105|H|||F||||||||||

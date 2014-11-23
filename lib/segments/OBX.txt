@@ -1,0 +1,19 @@
+OBX
+SEQ	LEN	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	O	 	Set ID – Obx
+2	2	ID	R	 	Value Type
+3	590	CE	R	 	Observation Identifier
+4	20	ST	O	 	Observation Sub-Id
+5	65536	ST	O	 	Observation Value
+6	60	CE	O	 	Units
+7	10	ST	O	 	Reference Range
+8	5	ID	O	Y/5	Abnormal Flags
+9	5	NM	O	 	Probability
+10	2	ID	O	 	Nature of Abnormal Test
+11	1	ID	R	 	Observ Result Status
+12	26	TS	O	 	Data Last Obs Normal Values
+13	20	ST	O	 	User Defined Access Checks
+14	26	TS	O	 	Date/Time of the Observation
+15	60	CE	O	 	Producer’s Id
+16	80	XCN	O	 	Responsible Observer
+17	80	CE	O	Y	Observation Method
