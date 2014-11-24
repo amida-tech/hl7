@@ -1,6 +1,6 @@
 {
   "name": "hl7",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parsing HL7 into JSON",
   "main": "index.js",
   "scripts": {

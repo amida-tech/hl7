@@ -5,7 +5,7 @@ var parser=require('./index.js');
 var serializer=require('./index.js');
 var translate=require('./lib/translate.js');
 
-var data = fs.readFileSync('./test/fixtures/sample4.txt').toString().split("\n").join("\r");
+var data = fs.readFileSync('./test/fixtures/isabella_jones_lipid_panel.txt').toString().split("\n").join("\r");
 
 var hl7=parser.parseString(data);
 
