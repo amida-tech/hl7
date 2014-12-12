@@ -1,0 +1,6 @@
+MSH
+SEQ	LEN	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	O		Set ID - NTE
+2	8	ID	O		Source of Comment
+3	64000	FT	O	R	Comment	FT
+4	60	CE	O		Comment Type

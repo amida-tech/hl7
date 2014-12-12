@@ -7,6 +7,8 @@ var translate=require('./lib/translate.js');
 
 var data = fs.readFileSync('./test/fixtures/isabella_jones_lipid_panel.txt').toString().split("\n").join("\r");
 
+console.log(data);
+
 var hl7=parser.parseString(data);
 
 //console.log(JSON.stringify(hl7,null,4));
