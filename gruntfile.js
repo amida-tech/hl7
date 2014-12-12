@@ -58,7 +58,7 @@ module.exports = function (grunt) {
                     reporter: 'spec',
                     timeout: '10000'
                 },
-                src: ['test/unit/*.js', 'test/docscripts/*.js']
+                src: ['test/*.js', 'test/**/*.js']
             }
         }
     });

@@ -3,20 +3,18 @@ var assert = require('chai').assert;
 
 var fs = require("fs");
 
-var parseString = require("../index.js").parseString;
+var hl7 = require("../index.js");
 
 describe('parse.js test', function () {
-    var hl7 = "";
+    var data = "";
 
     before(function () {
-        text = fs.readFileSync('./test/fixtures/example.txt').toString();
+        data = fs.readFileSync('./test/fixtures/isabella_jones_lipid_panel.txt').toString();
 
     });
 
     it('should work', function () {
-        assert.notStrictEqual(undefined, hl7.parseString(hl7));
+        assert.notStrictEqual(undefined, hl7.parseString(data));
     });
-
-
 
 });
