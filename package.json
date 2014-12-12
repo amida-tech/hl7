@@ -16,9 +16,32 @@
     "parser"
   ],
   "author": "Dmitry Kachaev <dmitry.kachaev@gmail.com> (http://github.com/kachok)",
-  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/amida-tech/hl7/issues"
   },
-  "homepage": "https://github.com/amida-tech/hl7"
+  "homepage": "https://github.com/amida-tech/hl7",
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-jshint": "0.8.x",
+    "grunt-contrib-watch": "0.6.x",
+    "grunt-mocha-test": "0.10.x",
+    "grunt-jsbeautifier": "^0.2.7",
+    "mocha": "1.18.x",
+    "chai": "1.9.x",
+    "chai-datetime": "1.3.x",
+    "grunt-coveralls": "*",
+    "grunt-istanbul-coverage": "*",
+    "coveralls": "~2.10.0",
+    "mocha-lcov-reporter": "0.0.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+
 }
