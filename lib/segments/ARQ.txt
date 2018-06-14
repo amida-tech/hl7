@@ -1,5 +1,5 @@
 ARQ
-SEQ	LENGTH	DT	OPT	RPT/#	 ELEMENT NAME
+SEQ	LENGTH	DT	OPT	RP/#	 ELEMENT NAME
 1	75	EI	R	1	 Placer Appointment ID
 2	75	EI	C	1	 Filler Appointment ID
 3	5	NM	C	1	 Occurrence Number
