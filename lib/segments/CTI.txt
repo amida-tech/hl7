@@ -1,0 +1,5 @@
+CTI
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	EI	R	1	Sponsor Study ID
+2	60	CE	C	1	Study Phase Identifier
+3	60	CE	O	1	Study Scheduled Time Point

@@ -1,0 +1,9 @@
+CTD
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	200	CE	R	*	Contact Role
+2	106	XPN	O	*	Contact Name
+3	200	XAD	O	*	Contact Address
+4	60	PL	O	1	Contact Location
+5	100	XTN	O	*	Contact Communication Information
+6	200	CE	O	1	Preferred Method Of Contact
+7	100	PI	O	*	Contact Identifiers

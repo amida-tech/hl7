@@ -1,0 +1,7 @@
+APR
+SEQ	LENGTH	DT	OPT	RP/#	 ELEMENT NAME
+1	80	SCV	O	*	 Time Selection Criteria
+2	80	SCV	O	*	 Resource Selection Criteria
+3	80	SCV	O	*	 Location Selection Criteria
+4	5	NM	O	1	 Slot Spacing Criteria
+5	80	SCV	O	*	 Filler Override Criteria

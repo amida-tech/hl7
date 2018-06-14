@@ -1,0 +1,18 @@
+CSR
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	EI	R	1	Sponsor Study ID
+2	60	EI	O	1	Alternate Study ID
+3	60	CE	O	1	Institution Registering the Patient
+4	30	CX	R	1	Sponsor Patient ID
+5	30	CX	O	1	Alternate Patient ID - CSR
+6	26	TS	R	1	Date/Time Of Patient Study Registration
+7	60	XCN	O	*	Person Performing Study Registration
+8	60	XCN	R	*	Study Authorizing Provider
+9	26	TS	C	1	Date/time Patient Study Consent Signed
+10	60	CE	C	1	Patient Study Eligibility Status
+11	26	TS	O	3	Study Randomization Date/time
+12	200	CE	O	3	Randomized Study Arm
+13	200	CE	O	3	Stratum for Study Randomization
+14	60	CE	C	1	Patient Evaluability Status
+15	26	TS	C	1	Date/time Ended Study
+16	60	CE	C	1	Reason Ended Study

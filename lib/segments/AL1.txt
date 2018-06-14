@@ -1,0 +1,8 @@
+AL1
+SEQ	LENGTH	DT	OPT	RP/#   ELEMENT NAME
+1	4	SI	R	1       Set ID - AL1
+2	2	IS	O	1       Allergy Type
+3	60	CE	R	1       Allergy Code/Mnemonic/Description
+4	2	IS	O	1       Allergy Severity
+5	15	ST	O	*       Allergy Reaction
+6	8	DT	O	1       Identification Date

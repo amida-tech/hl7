@@ -1,0 +1,13 @@
+CM0
+SEQ	LENGTH	DT	OPT	RP/#	 ELEMENT NAME
+1	4	SI	O	1	 Set ID - CM0
+2	60	EI	R	1	 Sponsor Study ID
+3	60	EI	O	3	 Alternate Study ID
+4	300	ST	R	1	 Title of Study
+5	60	XCN	O	*	 Chairman of Study
+6	8	DT	O	1	 Last IRB Approval Date
+7	8	NM	O	1	 Total Accrual to Date
+8	8	DT	O	1	 Last Accrual Date
+9	60	XCN	O	*	 Contact for Study
+10	40	XTN	O	1	 Contact's Tel. Number
+11	100	XAD	O	*	 Contact's Address

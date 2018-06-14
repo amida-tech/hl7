@@ -1,0 +1,15 @@
+CDM
+SEQ	LENGTH	DT	OPT	RP/#	 ELEMENT NAME
+1	200	CE	R	1	 Primary Key Value - CDM
+2	200	CE	O	*	 Charge Code Alias
+3	20	ST	R	1	 Charge Description Short
+4	250	ST	O	1	 Charge Description Long
+5	1	IS	O	1	 Description Override Indicator
+6	60	CE	O	*	 Exploding Charges
+7	80	CE	O	*	 Procedure Code
+8	1	ID	O	1	 Active/Inactive Flag
+9	60	CE	O	*	 Inventory Number
+10	12	NM	O	1	 Resource Load
+11	200	CK	O	*	 Contract Number
+12	200	XON	O	*	 Contract Organization
+13	1	ID	O	1	 Room Fee Indicator
