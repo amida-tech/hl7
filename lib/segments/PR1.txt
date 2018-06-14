@@ -1,0 +1,18 @@
+PR1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	R	1	Set ID - PR1
+2	2	IS	B	1	Procedure Coding Method
+3	80	CE	R	1	Procedure Code
+4	40	ST	B	1	Procedure Description
+5	26	TS	R	1	rocedure Date/Time
+6	2	IS	R	1	Procedure Functional Type
+7	4	NM	O	1	Procedure Minutes
+8	120	XCN	B	*	Anesthesiologist
+9	2	IS	O	1	Anesthesia Code
+10	4	NM	O	1	Anesthesia Minutes
+11	120	XCN	B	*	Surgeon
+12	230	XCN	B	*	Procedure Practitioner
+13	60	CE	O	1	Consent Code
+14	2	NM	O	1	Procedure Priority
+15	80	CE	O	1	Associated Diagnosis Code
+16	80	CE	O	*	Procedure Code Modifier

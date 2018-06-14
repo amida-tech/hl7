@@ -1,0 +1,27 @@
+PRB
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	2	ID	R	1	Action Code
+2	26	TS	R	1	Action Date/Time
+3	80	CE	R	1	Problem ID
+4	60	EI	R	1	Problem Instance ID
+5	60	EI	O	1	Episode of Care ID
+6	60	NM	O	1	Problem List Priority
+7	26	TS	O	1	Problem Established Date/Time
+8	26	TS	O	1	Anticipated Problem Resolution Date/Time
+9	26	TS	O	1	Actual Problem Resolution Date/Time
+10	80	CE	O	1	Problem Classification
+11	80	CE	O	*	Problem Management Discipline
+12	80	CE	O	1	Problem Persistence
+13	80	CE	O	1	Problem Confirmation Status
+14	80	CE	O	1	Problem Life Cycle Status
+15	26	TS	O	1	Problem Life Cycle Status Date/Time
+16	26	TS	O	1	Problem Date of Onset
+17	80	ST	O	1	Problem Onset Text
+18	80	CE	O	1	Problem Ranking
+19	60	CE	O	1	Certainty of Problem
+20	5	NM	O	1	Probability of Problem
+21	80	CE	O	1	Individual Awareness of Problem
+22	80	CE	O	1	Problem Prognosis
+23	80	CE	O	1	Individual Awareness of Prognosis
+24	200	ST	O	1	Family/Significant Other Awareness of Problem/Prognosis
+25	80	CE	O	1	Security/Sensitivity

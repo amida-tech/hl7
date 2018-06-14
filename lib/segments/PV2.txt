@@ -1,0 +1,39 @@
+PV2
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	80	PL	C	1	Prior Pending Location
+2	60	CE	O	1	Accommodation Code
+3	60	CE	O	1	Admit Reason
+4	60	CE	O	1	Transfer Reason
+5	25	ST	O	*	Patient Valuables
+6	25	ST	O	1	Patient Valuables Location
+7	2	IS	O	1	Visit User Code
+8	26	TS	O	1	Expected Admit Date/Time
+9	26	TS	O	1	Expected Discharge Date/Time
+10	3	NM	O	1	Estimated Length of Inpatient Stay
+11	3	NM	O	1	Actual Length of Inpatient Stay
+12	50	ST	O	1	Visit Description
+13	90	XCN	O	*	Referral Source Code
+14	8	DT	O	1	Previous Service Date
+15	1	ID	O	1	Employment Illness Related Indicator
+16	1	IS	O	1	Purge Status Code
+17	8	DT	O	1	Purge Status Date
+18	2	IS	O	1	Special Program Code
+19	1	ID	O	1	Retention Indicator
+20	1	NM	O	1	Expected Number of Insurance Plans
+21	1	IS	O	1	Visit Publicity Code
+22	1	ID	O	1	Visit Protection Indicator
+23	90	XON	O	*	Clinic Organization Name
+24	2	IS	O	1	Patient Status Code
+25	1	IS	O	1	Visit Priority Code
+26	8	DT	O	1	Previous Treatment Date
+27	2	IS	O	1	Expected Discharge Disposition
+28	8	DT	O	1	Signature on File Date
+29	8	DT	O	1	First Similar Illness Date
+30	80	CE	O	1	Patient Charge Adjustment Code
+31	2	IS	O	1	Recurring Service Code
+32	1	ID	O	1	Billing Media Code
+33	26	TS	O	1	Expected Surgery Date & Time
+34	1	ID	O	1	Military Partnership Code
+35	1	ID	O	1	Military Non-Availability Code
+36	1	ID	O	1	Newborn Baby Indicator
+37	1	ID	O	1	Baby Detained Indicator

@@ -1,0 +1,20 @@
+PRC
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	200	CE	R	1	Primary Key Value - PRC
+2	60	CE	O	*	Facility ID - PRC
+3	200	CE	O	*	Department
+4	1	IS	O	*	Valid Patient Classes
+5	12	CP	C	*	Price
+6	200	ST	O	*	Formula
+7	4	NM	O	1	Minimum Quantity
+8	4	NM	O	1	Maximum Quantity
+9	12	MO	O	1	Minimum Price
+10	12	MO	O	1	Maximum Price
+11	26	TS	O	1	Effective Start Date
+12	26	TS	O	1	Effective End Date
+13	1	IS	O	1	Price Override Flag
+14	60	CE	O	*	Billing Category
+15	1	ID	O	1	Chargeable Flag
+16	1	ID	O	1	Active/Inactive Flag
+17	12	MO	O	1	Cost
+18	1	IS	O	1	Charge On Indicator

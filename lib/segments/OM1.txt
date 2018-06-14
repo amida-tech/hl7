@@ -1,0 +1,49 @@
+OM1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	NM	R	1	Sequence Number - Test/Observation Master File
+2	200	CE	R	1	Producer's Test/Observation ID
+3	12	ID	O	*	Permitted Data Types
+4	1	ID	R	1	Specimen Required
+5	200	CE	R	1	Producer ID
+6	200	TX	O	1	Observation Description
+7	200	CE	O	1	Other Test/Observation IDs for the Observation
+8	200	ST	R	*	Other Names
+9	30	ST	O	1	Preferred Report Name for the Observation
+10	8	ST	O	1	Preferred Short Name or Mnemonic for Observation
+11	200	ST	O	1	Preferred Long Name for the Observation
+12	1	ID	O	1	Orderability
+13	60	CE	O	*	Identity of Instrument Used to Perform this Study
+14	200	CE	O	*	Coded Representation of Method
+15	1	ID	O	1	Portable
+16	1	CE	O	*	Observation Producing Department/Section
+17	40	XTN	O	1	Telephone Number of Section
+18	1	IS	R	1	Nature of Test/Observation
+19	200	CE	O	1	Report Subheader
+20	20	ST	O	1	Report Display Order
+21	26	TS	O	1	Date/Time Stamp for any change in Definition for the Observation
+22	26	TS	O	1	Effective Date/Time of Change
+23	20	NM	O	1	Typical Turn-Around Time
+24	20	NM	O	1	Processing Time
+25	40	ID	O	*	Processing Priority
+26	5	ID	O	1	Reporting Priority
+27	200	CE	O	*	Outside Site
+28	1000	XAD	O	*	Address of Outside Site
+29	400	XTN	O	1	Phone Number of Outside Site
+30	1	IS	O	1	Confidentiality Code
+31	200	CE	O	1	Observations Required to Interpret the Obs
+32	65536	TX	O	1	Interpretation of Observations
+33	65536	CE	O	1	Contraindications to Observations
+34	200	CE	O	*	Reflex Tests/Observations
+35	80	TX	O	1	Rules that Trigger Reflex Testing
+36	65536	CE	O	1	Fixed Canned Message
+37	200	TX	O	1	Patient Preparation
+38	200	CE	O	1	Procedure Medication
+39	200	TX	O	1	Factors that may Effect the Observation
+40	60	ST	O	*	Test/Observation Performance Schedule
+41	65536	TX	O	1	Description of Test Methods
+42	60	CE	O	1	Kind of Quantity Observed
+43	60	CE	O	1	Point Versus Interval
+44	200	TX	O	1	Challenge Information
+45	200	CE	O	1	Relationship Modifier
+46	200	CE	O	1	Target Anatomic Site Of Test
+47	200	CE	O	1	Modality Of Imaging Measurement

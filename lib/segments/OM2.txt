@@ -1,0 +1,12 @@
+OM2
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	NM	O	1	Sequence Number - Test/Observation Master File
+2	60	CE	O	1	Units of Measure
+3	10	NM	O	*	Range of Decimal Precision
+4	60	CE	O	1	Corresponding SI Units of Measure
+5	60	TX	O	1	SI Conversion Factor
+6	200	RFR	O	1	Reference
+7	200	NR	O	1	Critical Range for Ordinal & Continuous Obs
+8	200	RFR	O	1	Absolute Range for Ordinal & Continuous Obs
+9	200	DLT	O	*	Delta Check Criteria
+10	20	NM	O	1	Minimum Meaningful Increments

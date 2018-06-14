@@ -1,0 +1,15 @@
+PES
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	80	XON	O	*	Sender Organization Name
+2	60	XCN	O	*	Sender Individual Name
+3	200	XAD	O	*	Sender Address
+4	44	XTN	O	*	Sender Telephone
+5	75	EI	O	1	Sender Event Identifier
+6	2	NM	O	1	Sender Sequence Number
+7	600	FT	O	*	Sender Event Description
+8	600	FT	O	1	Sender Comment
+9	26	TS	O	1	Sender Aware Date/Time
+10	26	TS	R	1	Event Report Date
+11	3	ID	O	2	Event Report Timing/Type
+12	1	ID	O	1	Event Report Source
+13	1	ID	O	*	Event Reported To

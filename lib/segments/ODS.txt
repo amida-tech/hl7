@@ -1,0 +1,6 @@
+ODS
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	1	ID	R	1	Type
+2	60	CE	O	10	Service Period
+3	60	CE	R	20	Diet, Supplement, or Preference Code
+4	80	ST	O	2	Text Instruction
