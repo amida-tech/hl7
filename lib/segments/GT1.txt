@@ -1,0 +1,57 @@
+GT1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	R	1	Set ID - GT1
+2	59	CX	O	*	Guarantor Number
+3	48	XPN	R	*	Guarantor Name
+4	48	XPN	O	*	Guarantor Spouse Name
+5	106	XAD	O	*	Guarantor Address
+6	40	XTN	O	*	Guarantor Ph Num-Home
+7	40	XTN	O	*	Guarantor Ph Num-Business
+8	26	TS	O	1	Guarantor Date/Time Of Birth
+9	1	IS	O	1	Guarantor Sex
+10	2	IS	O	1	Guarantor Type
+11	80	CE	O	1	Guarantor Relationship
+12	11	ST	O	1	Guarantor SSN
+13	8	DT	O	1	Guarantor Date - Begin
+14	8	DT	O	1	Guarantor Date - End
+15	2	NM	O	1	Guarantor Priority
+16	130	XPN	O	*	Guarantor Employer Name
+17	106	XAD	O	*	Guarantor Employer Address
+18	40	XTN	O	*	Guarantor Employer Phone Number
+19	20	CX	O	*	Guarantor Employee ID Number
+20	2	IS	O	1	Guarantor Employment Status
+21	130	XON	O	*	Guarantor Organization Name
+22	1	ID	O	1	Guarantor Billing Hold Flag
+23	80	CE	O	1	Guarantor Credit Rating Code
+24	26	TS	O	1	Guarantor Death Date And Time
+25	1	ID	O	1	Guarantor Death Flag
+26	80	CE	O	1	Guarantor Charge Adjustment Code
+27	10	CP	O	1	Guarantor Household Annual Income
+28	3	NM	O	1	Guarantor Household Size
+29	20	CX	O	*	Guarantor Employer ID Number
+30	80	CE	O	1	Guarantor Marital Status Code
+31	8	DT	O	1	Guarantor Hire Effective Date
+32	8	DT	O	1	Employment Stop Date
+33	2	IS	O	1	Living Dependency
+34	2	IS	O	*	Ambulatory Status
+35	80	CE	O	*	Citizenship
+36	60	CE	O	1	Primary Language
+37	2	IS	O	1	Living Arrangement
+38	80	CE	O	1	Publicity Code
+39	1	ID	O	1	Protection Indicator
+40	2	IS	O	1	Student Indicator
+41	80	CE	O	1	Religion
+42	48	XPN	O	*	Mother s Maiden Name
+43	80	CE	O	1	Nationality
+44	80	CE	O	*	Ethnic Group
+45	48	XPN	O	*	Contact Person s Name
+46	40	XTN	O	*	Contact Person s Telephone Number
+47	80	CE	O	1	Contact Reason
+48	2	IS	O	1	Contact Relationship
+49	20	ST	O	1	Job Title
+50	20	JCC	O	1	Job Code/Class
+51	130	XON	O	*	Guarantor Employer s Organization Name
+52	2	IS	O	1	Handicap
+53	2	IS	O	1	Job Status
+54	50	FC	O	1	Guarantor Financial Class
+55	80	CE	O	*	Guarantor Race

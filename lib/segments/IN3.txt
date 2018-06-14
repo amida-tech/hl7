@@ -1,0 +1,27 @@
+IN3
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	R	1	Set ID - IN3
+2	59	CX	O	1	Certification Number
+3	60	XCN	O	*	Certified By
+4	1	ID	O	1	Certification Required
+5	10	MOP	O	1	Penalty
+6	26	TS	O	1	Certification Date/Time
+7	26	TS	O	1	Certification Modify Date/Time
+8	60	XCN	O	*	Operator
+9	8	DT	O	1	Certification Begin Date
+10	8	DT	O	1	Certification End Date
+11	3	DTN	O	1	Days
+12	60	CE	O	1	Non-Concur Code/Description
+13	26	TS	O	1	Non-Concur Effective Date/Time
+14	60	XCN	O	*	Physician Reviewer
+15	48	ST	O	1	Certification Contact
+16	40	XTN	O	*	Certification Contact Phone Number
+17	60	CE	O	1	Appeal Reason
+18	60	CE	O	1	Certification Agency
+19	40	XTN	O	*	Certification Agency Phone Number
+20	40	PCF	O	*	Pre-Certification Req/Window
+21	48	ST	O	1	Case Manager
+22	8	DT	O	1	Second Opinion Date
+23	1	IS	O	1	Second Opinion Status
+24	1	IS	O	*	Second Opinion Documentation Received
+25	60	XCN	O	*	Second Opinion Physician

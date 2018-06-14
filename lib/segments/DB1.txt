@@ -1,0 +1,10 @@
+DB1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	R	1	Set ID - DB1
+2	2	IS	O	1	Disabled Person Code
+3	32	CX	O	*	Disabled Person Identifier
+4	1	ID	O	1	Disabled Indicator
+5	8	DT	O	1	Disability Start Date
+6	8	DT	O	1	Disability End Date
+7	8	DT	O	1	Disability Return to Work Date
+8	8	DT	O	1	Disability Unable to Work Date

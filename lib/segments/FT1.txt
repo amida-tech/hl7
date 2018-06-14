@@ -1,0 +1,28 @@
+FT1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	O	1	Set ID - FT1
+2	12	ST	O	1	Transaction ID
+3	10	ST	O	1	Transaction Batch ID
+4	26	TS	R	1	Transaction Date
+5	26	TS	O	1	Transaction Posting Date
+6	8	IS	R	1	Transaction Type
+7	80	CE	R	1	Transaction Code
+8	40	ST	B	1	Transaction Description
+9	40	ST	B	1	Transaction Description - Alt
+10	6	NM	O	1	Transaction Quantity
+11	12	CP	O	1	Transaction Amount - Extended
+12	12	CP	O	1	Transaction Amount - Unit
+13	60	CE	O	1	Department Code
+14	60	CE	O	1	Insurance Plan ID
+15	12	CP	O	1	Insurance Amount
+16	80	PL	O	1	Assigned Patient Location
+17	1	IS	O	1	Fee Schedule
+18	2	IS	O	1	Patient Type
+19	60	CE	O	*	Diagnosis Code - FT1
+20	120	XCN	O	*	erformed By Code
+21	120	XCN	O	*	Ordered By Code
+22	12	CP	O	1	Unit Cost
+23	22	EI	O	1	Filler Order Number
+24	120	XCN	O	*	Entered By Code
+25	80	CE	O	1	Procedure Code
+26	80	CE	O	*	Procedure Code Modifier

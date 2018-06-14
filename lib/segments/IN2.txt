@@ -1,0 +1,74 @@
+IN2
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	59	CX	O	*	Insured s Employee ID
+2	11	ST	O	1	Insured s Social Security Number
+3	130	XCN	O	*	Insured s Employer s Name and ID
+4	1	IS	O	1	Employer Information Data
+5	1	IS	O	*	Mail Claim Party
+6	15	ST	O	1	Medicare Health Ins Card Number
+7	48	XPN	O	*	Medicaid Case Name
+8	15	ST	O	1	Medicaid Case Number
+9	48	XPN	O	*	Military Sponsor Name
+10	20	ST	O	1	Military ID Number
+11	80	CE	O	1	Dependent Of Military Recipient
+12	25	ST	O	1	Military Organization
+13	25	ST	O	1	Military Station
+14	14	IS	O	1	Military Service
+15	2	IS	O	1	Military Rank/Grade
+16	3	IS	O	1	Military Status
+17	8	DT	O	1	Military Retire Date
+18	1	ID	O	1	Military Non-Avail Cert On File
+19	1	ID	O	1	Baby Coverage
+20	1	ID	O	1	Combine Baby Bill
+21	1	ST	O	1	Blood Deductible
+22	48	XPN	O	*	Special Coverage Approval Name
+23	30	ST	O	1	Special Coverage Approval Title
+24	8	IS	O	*	Non-Covered Insurance Code
+25	59	CX	O	*	Payor ID
+26	59	CX	O	*	Payor Subscriber ID
+27	1	IS	O	1	Eligibility Source
+28	25	RMC	O	*	Room Coverage Type/Amount
+29	25	PTA	O	*	Policy Type/Amount
+30	25	DDI	O	1	Daily Deductible
+31	2	IS	O	1	Living Dependency
+32	2	IS	O	*	Ambulatory Status
+33	80	CE	O	*	Citizenship
+34	60	CE	O	1	Primary Language
+35	2	IS	O	1	Living Arrangement
+36	80	CE	O	1	Publicity Code
+37	1	ID	O	1	Protection Indicator
+38	2	IS	O	1	Student Indicator
+39	80	CE	O	1	Religion
+40	48	XPN	O	*	Mother s Maiden Name
+41	80	CE	O	1	Nationality
+42	80	CE	O	*	Ethnic Group
+43	80	CE	O	*	Marital Status
+44	8	DT	O	1	Insured s Employment Start Date
+45	8	DT	O	1	Employment Stop Date
+46	20	ST	O	1	Job Title
+47	20	JCC	O	1	Job Code/Class
+48	2	IS	O	1	Job Status
+49	48	XPN	O	*	Employer Contact Person Name
+50	40	XTN	O	*	Employer Contact Person Phone Number
+51	2	IS	O	1	Employer Contact Reason
+52	48	XPN	O	*	Insured s Contact Person s Name
+53	40	XTN	O	*	Insured s Contact Person Phone Number
+54	2	IS	O	*	Insured s Contact Person Reason
+55	8	DT	O	1	Relationship To The Patient Start Date
+56	8	DT	O	*	Relationship To The Patient Stop Date
+57	2	IS	O	1	Insurance Co. Contact Reason
+58	40	XTN	O	1	Insurance Co Contact Phone Number
+59	2	IS	O	1	Policy Scope
+60	2	IS	O	1	Policy Source
+61	60	CX	O	1	Patient Member Number
+62	80	CE	O	1	Guarantor s Relationship To Insured
+63	40	XTN	O	*	Insured s Phone Number - Home
+64	40	XTN	O	*	Insured s Employer Phone Number
+65	60	CE	O	1	Military Handicapped Program
+66	1	ID	O	1	Suspend Flag
+67	1	ID	O	1	Copay Limit Flag
+68	1	ID	O	1	Stoploss Limit Flag
+69	130	XON	O	*	Insured Organization Name And ID
+70	130	XON	O	*	Insured Employer Organization Name And ID
+71	80	CE	O	*	Race
+72	60	CE	O	1	HCFA Patient s Relationship to Insured

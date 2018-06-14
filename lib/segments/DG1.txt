@@ -1,0 +1,21 @@
+DG1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	R	1	Set ID - DG1
+2	2	ID	B	1	Diagnosis Coding Method
+3	60	CE	O	1	Diagnosis Code - DG1
+4	40	ST	B	1	Diagnosis Description
+5	26	TS	O	1	Diagnosis Date/Time
+6	2	IS	R	1	Diagnosis Type
+7	60	CE	B	1	Major Diagnostic Category
+8	60	CE	B	1	Diagnostic Related Group
+9	1	ID	B	1	DRG Approval Indicator
+10	2	IS	B	1	DRG Grouper Review Code
+11	60	CE	B	1	Outlier Type
+12	3	NM	B	1	Outlier Days
+13	12	CP	B	1	Outlier Cost
+14	4	ST	B	1	Grouper Version And Type
+15	2	ID	O	1	Diagnosis Priority
+16	60	XCN	O	*	Diagnosing Clinician
+17	3	IS	O	1	Diagnosis Classification
+18	1	ID	O	1	Confidential Indicator
+19	26	TS	O	1	Attestation Date/Time

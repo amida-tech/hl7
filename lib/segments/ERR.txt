@@ -1,0 +1,3 @@
+ERR
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	80	ELD	R	*	Error Code and Location

@@ -1,0 +1,13 @@
+LDP
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	200	PL	R	1	Primary Key Value - LDP
+2	10	IS	R	1	Location Department
+3	3	IS	O	*	Location Service
+4	60	CE	O	*	Specialty Type
+5	1	IS	O	*	Valid Patient Classes
+6	1	ID	O	1	Active/Inactive Flag
+7	26	TS	O	1	Activation Date LDP
+8	26	TS	O	1	Inactivation Date - LDP
+9	80	ST	O	1	Inactivated Reason
+10	80	VH	O	*	Visiting Hours
+11	40	XTN	O	1	Contact Phone
