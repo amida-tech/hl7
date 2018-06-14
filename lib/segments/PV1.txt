@@ -1,0 +1,54 @@
+PV1
+SEQ	LEN	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	O		Set ID – PV1
+2	1	IS	R		Patient Class
+3	80	PL	O		Assigned Patient Location
+4	2	IS	O		Admission Type
+5	250	CX	O		Preadmit Number
+6	80	PL	O		Prior Patient Location
+7	250	XCN	O	Y	Attending Doctor
+8	250	XCN	O	Y	Referring Doctor
+9	250	XCN	B	Y	Consulting Doctor
+10	3	IS	O		Hospital Service
+11	80	PL	O		Temporary Location
+12	2	IS	O		Preadmit Test Indicator
+13	2	IS	O		Re admission Indicator
+14	6	IS	O		Admit Source
+15	2	IS	O	Y	Ambulatory Status
+16	2	IS	O		VIP Indicator
+17	250	XCN	O	Y	Admitting Doctor
+18	2	IS	O		Patient Type
+19	250	CX	O		Visit Number
+20	50	FC	O	Y	Financial Class
+21	2	IS	O		Charge Price Indicator
+22	2	IS	O		Courtesy Code
+23	2	IS	O		Credit Rating
+24	2	IS	O	Y	Contract Code
+25	8	DT	O	Y	Contract Effective Date
+26	12	NM	O	Y	Contract Amount
+27	3	NM	O	Y	Contract Period
+28	2	IS	O		Interest Code
+29	4	IS	O		Transfer to Bad Debt Code	
+30	8	DT	O		Transfer to Bad Debt Date	
+31	10	IS	O		Bad Debt Agency Code	
+32	12	NM	O		Bad Debt Transfer Amount	
+33	12	NM	O		Bad Debt Recovery Amount	
+34	1	IS	O		Delete Account Indicator	
+35	8	DT	O		Delete Account Date	
+36	3	IS	O		Discharge Disposition	
+37	47	DLD	O		Discharged to Location	
+38	250	CE	O		Diet Type	
+39	2	IS	O		Servicing Facility	
+40	1	IS	B		Bed Status	
+41	2	IS	O		Account Status	
+42	80	PL	O		Pending Location	
+43	80	PL	O		Prior Temporary Location
+44	26	TS	O		Admit Date/Time	
+45	26	TS	O	Y	Discharge Date/Time	
+46	12	NM	O		Current Patient Balance	
+47	12	NM	O		Total Charges	
+48	12	NM	O		Total Adjustments	
+49	12	NM	O		Total Payments	
+50	250	CX	O		Alternate Visit ID	
+51	1	IS	O		Visit Indicator	
+52	250	XCN	B	Y	Other Healthcare Provider
