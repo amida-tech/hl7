@@ -1,0 +1,3 @@
+NCK
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	0	TS	O	1	System Date/Time

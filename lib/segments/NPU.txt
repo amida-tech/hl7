@@ -1,0 +1,4 @@
+NPU
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	80	PL	R	1	Bed Location
+2	1	IS	O	1	Bed Status

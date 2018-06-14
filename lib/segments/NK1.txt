@@ -1,0 +1,39 @@
+NK1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	R	1	Set ID - NK1
+2	48	XPN	O	*	NK Name
+3	60	CE	O	1	Relationship
+4	106	XAD	O	*	Address
+5	40	XTN	O	*	Phone Number
+6	40	XTN	O	*	Business Phone Number
+7	200	CE	O	1	Contact Role
+8	8	DT	O	1	Start Date
+9	8	DT	O	1	End Date
+10	60	ST	O	1	Next of Kin / Associated Parties Job Title
+11	20	JCC	O	1	Next of Kin / Associated Parties Job Code/Class
+12	20	CX	O	1	Next of Kin / Associated Parties Employee Number
+13	90	XON	O	*	Organization Name - NK1
+14	80	CE	O	1	Marital Status
+15	1	IS	O	1	Sex
+16	26	TS	O	1	Date/Time Of Birth
+17	2	IS	O	*	Living Dependency
+18	2	IS	O	*	Ambulatory Status
+19	80	CE	O	*	Citizenship
+20	60	CE	O	1	Primary Language
+21	2	IS	O	1	Living Arrangement
+22	80	CE	O	1	Publicity Code
+23	1	ID	O	1	Protection Indicator
+24	2	IS	O	1	Student Indicator
+25	80	CE	O	1	Religion
+26	48	XPN	O	*	Mother s Maiden Name
+27	80	CE	O	1	Nationality
+28	80	CE	O	*	Ethnic Group
+29	80	CE	O	*	Contact Reason
+30	48	XPN	O	*	Contact Person s Name
+31	40	XTN	O	*	Contact Person s Telephone Number
+32	106	XAD	O	*	Contact Person s Address
+33	32	CX	O	*	Next of Kin/Associated Party s Identifiers
+34	2	IS	O	1	Job Status
+35	80	CE	O	*	Race
+36	2	IS	O	1	Handicap
+37	16	ST	O	1	Contact Person Social Security Number

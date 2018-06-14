@@ -1,0 +1,22 @@
+MSH
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	1	ST	R	1	Field Separator
+2	4	ST	R	1	Encoding Characters
+3	180	HD	O	1	Sending Application
+4	180	HD	O	1	Sending Facility
+5	180	HD	O	1	Receiving Application
+6	180	HD	O	1	Receiving Facility
+7	26	TS	O	1	Date/Time Of Message
+8	40	ST	O	1	Security
+9	7	MSG	R	1	Message Type
+10	20	ST	R	1	Message Control ID
+11	3	PT	R	1	Processing ID
+12	60	VID	R	1	Version ID
+13	15	NM	O	1	Sequence Number
+14	180	ST	O	1	Continuation Pointer
+15	2	ID	O	1	Accept Acknowledgment Type
+16	2	ID	O	1	Application Acknowledgment Type
+17	2	ID	O	1	Country Code
+18	16	ID	O	*	Character Set
+19	60	CE	O	1	Principal Language Of Message
+20	20	ID	O	1	Alternate Character Set Handling Scheme

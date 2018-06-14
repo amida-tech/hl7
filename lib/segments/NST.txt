@@ -1,0 +1,17 @@
+NST
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	0	ID	O	1	Statistics Available
+2	0	ST	O	1	Source Identifier
+3	0	ID	O	1	Source Type
+4	0	TS	O	1	Statistics Start
+5	0	TS	O	1	Statistics End
+6	0	NM	O	1	Receive Character Count
+7	0	NM	O	1	Send Character Count
+8	0	NM	O	1	Messages Received
+9	0	NM	O	1	Messages Sent
+10	0	NM	O	1	Checksum Errors Received
+11	0	NM	O	1	Length Errors Received
+12	0	NM	O	1	Other Errors Received
+13	0	NM	O	1	Connect Timeouts
+14	0	NM	O	1	Receive Timeouts
+15	0	NM	O	1	Network Errors

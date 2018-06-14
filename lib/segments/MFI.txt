@@ -1,0 +1,8 @@
+MFI
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	CE	R	1	Master File Identifier
+2	180	HD	O	1	Master File Application Identifier
+3	3	ID	R	1	File-Level Event Code
+4	26	TS	O	1	Entered Date/Time
+5	26	TS	O	1	Effective Date/Time
+6	2	ID	R	1	Response Level Code
