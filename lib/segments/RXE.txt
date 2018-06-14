@@ -1,0 +1,32 @@
+RXE
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	200	TQ	R	1	Quantity/Timing
+2	100	CE	R	1	Give Code
+3	20	NM	R	1	Give Amount - Minimum
+4	20	NM	O	1	Give Amount - Maximum
+5	60	CE	R	1	Give Units
+6	60	CE	O	1	Give Dosage Form
+7	200	CE	O	*	Provider s Administration Instructions
+8	200	LA1	C	1	Deliver-to Location
+9	1	ID	O	1	Substitution Status
+10	20	NM	C	1	Dispense Amount
+11	60	CE	C	1	Dispense Units
+12	3	NM	O	1	Number Of Refills
+13	60	XCN	C	*	Ordering Provider s DEA Number
+14	60	XCN	O	*	Pharmacist/Treatment Supplier s Verifier ID
+15	20	ST	C	1	Prescription Number
+16	20	NM	C	1	Number of Refills Remaining
+17	20	NM	C	1	Number of Refills/Doses Dispensed
+18	26	TS	C	1	D/T of Most Recent Refill or Dose Dispensed
+19	10	CQ	C	1	Total Daily Dose
+20	1	ID	O	1	Needs Human Review
+21	200	CE	O	*	Pharmacy/Treatment Supplier s Special Dispensing Instructions
+22	20	ST	C	1	Give Per
+23	6	ST	O	1	Give Rate Amount
+24	60	CE	O	1	Give Rate Units
+25	20	NM	O	1	Give Strength
+26	60	CE	O	1	Give Strength Units
+27	200	CE	O	*	Give Indication
+28	20	NM	O	1	Dispense Package Size
+29	60	CE	O	1	Dispense Package Size Unit
+30	2	ID	O	1	Dispense Package Method

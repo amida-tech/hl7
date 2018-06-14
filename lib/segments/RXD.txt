@@ -1,0 +1,26 @@
+RXD
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	NM	R	1	Dispense Sub-ID Counter
+2	100	CE	R	1	Dispense/Give Code
+3	26	TS	R	1	Date/Time Dispensed
+4	20	NM	R	1	Actual Dispense Amount
+5	60	CE	C	1	Actual Dispense Units
+6	60	CE	O	1	Actual Dosage Form
+7	20	ST	R	1	Prescription Number
+8	20	NM	C	1	Number of Refills Remaining
+9	200	ST	O	*	Dispense Notes
+10	200	XCN	O	*	Dispensing Provider
+11	1	ID	O	1	Substitution Status
+12	10	CQ	O	1	Total Daily Dose
+13	200	LA2	C	1	Dispense-To Location
+14	1	ID	O	1	Needs Human Review
+15	200	CE	O	*	Pharmacy/Treatment Supplier s Special Dispensing Instructions
+16	20	NM	O	1	Actual Strength
+17	60	CE	O	1	Actual Strength Unit
+18	20	ST	O	*	Substance Lot Number
+19	26	TS	O	*	Substance Expiration Date
+20	60	CE	O	*	Substance Manufacturer Name
+21	200	CE	O	*	Indication
+22	20	NM	O	1	Dispense Package Size
+23	60	CE	O	1	Dispense Package Size Unit
+24	2	ID	O	1	Dispense Package Method

@@ -1,0 +1,4 @@
+RDF
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	3	NM	R	1	Number of Columns per Row
+2	40	RCD	R	*	Column Description

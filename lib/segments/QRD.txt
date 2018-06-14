@@ -1,0 +1,14 @@
+QRD
+PSEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	26	TS	R	1	Query Date/Time
+2	1	ID	R	1	Query Format Code
+3	1	ID	R	1	Query Priority
+4	10	ST	R	1	Query ID
+5	1	ID	O	1	Deferred Response Type
+6	26	TS	O	1	Deferred Response Date/Time
+7	10	CQ	R	1	Quantity Limited Request
+8	60	XCN	R	*	Who Subject Filter
+9	60	CE	R	*	What Subject Filter
+10	60	CE	R	*	What Department Data Code
+11	20	VR	O	*	What Data Code Value Qual.
+12	1	ID	O	1	Query Results Level

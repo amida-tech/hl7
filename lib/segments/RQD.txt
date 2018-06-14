@@ -1,0 +1,12 @@
+RQD
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	O	1	Requisition Line Number
+2	60	CE	C	1	Item Code - Internal
+3	60	CE	C	1	Item Code - External
+4	60	CE	C	1	Hospital Item Code
+5	6	NM	O	1	Requisition Quantity
+6	60	CE	O	1	Requisition Unit of Measure
+7	30	IS	O	1	Dept. Cost Center
+8	30	IS	O	1	Item Natural Account Code
+9	60	CE	O	1	Deliver To ID
+10	8	DT	O	1	Date Needed

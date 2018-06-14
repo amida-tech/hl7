@@ -1,0 +1,4 @@
+QAK
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	32	ST	C	1	Query Tag
+2	2	ID	O	1	Query Response Status

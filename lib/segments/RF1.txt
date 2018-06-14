@@ -1,0 +1,13 @@
+RF1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	200	CE	O	1	Referral Status
+2	200	CE	O	1	Referral Priority
+3	200	CE	O	1	Referral Type
+4	200	CE	O	*	Referral Disposition
+5	200	CE	O	1	Referral Category
+6	30	EI	R	1	Originating Referral Identifier
+7	26	TS	O	1	Effective Date
+8	26	TS	O	1	Expiration Date
+9	26	TS	O	1	Process Date
+10	200	CE	O	*	Referral Reason
+11	30	EI	O	*	External Referral Identifier
