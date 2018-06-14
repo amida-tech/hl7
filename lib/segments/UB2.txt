@@ -1,0 +1,19 @@
+UB2
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	O	1	Set ID - UB2
+2	3	ST	O	1	Co-Insurance Days
+3	2	IS	O	7	Condition Code
+4	3	ST	O	1	Covered Days
+5	4	ST	O	1	Non-Covered Days
+6	11	UVC	O	12	Value Amount & Code
+7	11	OCD	O	8	Occurrence Code & Date
+8	28	OSP	O	2	Occurrence Span Code/Dates
+9	29	ST	O	2	UB92 Locator 2
+10	12	ST	O	2	UB92 Locator 11
+11	5	ST	O	1	UB92 Locator 31
+12	23	ST	O	3	Document Control Number
+13	4	ST	O	23	UB92 Locator 49
+14	14	ST	O	5	UB92 Locator 56
+15	27	ST	O	1	UB92 Locator 57
+16	2	ST	O	2	UB92 Locator 78
+17	3	NM	O	1	Special Visit Count

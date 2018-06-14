@@ -1,0 +1,28 @@
+STF
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	CE	R	1	Primary Key Value - STF
+2	60	CX	O	*	Staff ID Code
+3	48	XPN	O	*	Staff Name
+4	2	IS	O	*	Staff Type
+5	1	IS	O	1	Sex
+6	26	TS	O	1	Date/Time Of Birth
+7	1	ID	O	1	Active/Inactive Flag
+8	200	CE	O	*	Department
+9	200	CE	O	*	Hospital Service
+10	40	XTN	O	*	Phone
+11	106	XAD	O	*	Office/Home Address
+12	26	DIN	O	*	Institution Activation Date
+13	26	DIN	O	*	Institution Inactivation Date
+14	60	CE	O	*	Backup Person ID
+15	40	ST	O	*	E-Mail Address
+16	200	CE	O	1	Preferred Method Of Contact
+17	80	CE	O	1	Marital Status
+18	20	ST	O	1	Job Title
+19	20	JCC	O	1	Job Code/Class
+20	2	IS	O	1	Employment Status
+21	1	ID	O	1	Additional Insured on Auto
+22	25	DLN	O	1	Driver s License Number - Staff
+23	1	ID	O	1	Copy Auto Ins
+24	8	DT	O	1	Auto Ins. Expires
+25	8	DT	O	1	Date Last DMV Review
+26	8	DT	O	1	Date Next DMV Review
