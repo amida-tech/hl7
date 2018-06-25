@@ -1,0 +1,9 @@
+URD
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	26	TS	O	1	R/U Date/Time
+2	1	ID	O	1	Report Priority
+3	60	XCN	R	*	R/U Who Subject Definition
+4	60	CE	O	*	R/U What Subject Definition
+5	60	CE	O	*	R/U What Department Code
+6	20	ST	O	*	R/U Display/Print Locations
+7	1	ID	O	1	R/U Results Level

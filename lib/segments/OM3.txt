@@ -1,0 +1,9 @@
+OM3
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	NM	O	1	Sequence Number - Test/Observation Master File
+2	60	CE	O	1	Preferred Coding System
+3	60	CE	O	1	Valid Coded Answers
+4	200	CE	O	*	Normal Text/Codes for Categorical Observations
+5	200	CE	O	1	Abnormal Text/Codes for Categorical Observations
+6	200	CE	O	1	Critical Text Codes for Categorical Observations
+7	3	ID	O	1	Value Type

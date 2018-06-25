@@ -1,0 +1,10 @@
+PRA
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	CE	R	1	Primary Key Value - PRA
+2	60	CE	O	*	Practitioner Group
+3	3	IS	O	*	Practitioner Category
+4	1	ID	O	1	Provider Billing
+5	100	SPD	O	*	Specialty
+6	100	PLN	O	*	Practitioner ID Numbers
+7	200	PIP	O	*	Privileges
+8	8	DT	O	1	Date Entered Practice

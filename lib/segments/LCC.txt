@@ -1,0 +1,6 @@
+LCC
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	200	PL	R	1	Primary Key Value - LCC
+2	10	IS	R	1	Location Department
+3	60	CE	O	*	Accommodation Type
+4	60	CE	R	*	Charge Code

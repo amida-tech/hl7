@@ -1,0 +1,27 @@
+PEO
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	CE	O	*	Event Identifiers Used
+2	60	CE	O	*	Event Symptom/Diagnosis Code
+3	26	TS	R	1	Event Onset Date/Time
+4	26	TS	O	1	Event Exacerbation Date/Time
+5	26	TS	O	1	Event Improved Date/Time
+6	26	TS	O	1	Event Ended Data/Time
+7	106	XAD	O	*	Event Location Occurred Address
+8	1	ID	O	*	Event Qualification
+9	1	ID	O	1	Event Serious
+10	1	ID	O	1	Event Expected
+11	1	ID	O	*	Event Outcome
+12	1	ID	O	1	Patient Outcome
+13	600	FT	O	*	Event Description From Others
+14	600	FT	O	*	Event From Original Reporter
+15	600	FT	O	*	Event Description From Patient
+16	600	FT	O	*	Event Description From Practitioner
+17	600	FT	O	*	Event Description From Autopsy
+18	60	CE	O	*	Cause Of Death
+19	46	XPN	O	*	Primary Observer Name
+20	106	XAD	O	*	Primary Observer Address
+21	40	XTN	O	*	Primary Observer Telephone
+22	1	ID	O	1	Primary Observer s Qualification
+23	1	ID	O	1	Confirmation Provided By
+24	26	TS	O	1	Primary Observer Aware Date/Time
+25	1	ID	O	1	Primary Observer s identity May Be Divulged

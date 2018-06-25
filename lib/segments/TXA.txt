@@ -1,0 +1,25 @@
+TXA
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	R	1	Set ID - TXA
+2	30	IS	R	1	Document Type
+3	2	ID	C	1	Document Content Presentation
+4	26	TS	O	1	Activity Date/Time
+5	60	XCN	C	*	Primary Activity Provider Code/Name
+6	26	TS	O	1	Origination Date/Time
+7	26	TS	C	1	Transcription Date/Time
+8	26	TS	O	*	Edit Date/Time
+9	60	XCN	O	*	Originator Code/Name
+10	60	XCN	O	*	Assigned Document Authenticator
+11	48	XCN	C	*	Transcriptionist Code/Name
+12	30	EI	R	1	Unique Document Number
+13	30	EI	C	1	Parent Document Number
+14	22	EI	O	*	Placer Order Number
+15	22	EI	O	1	Filler Order Number
+16	30	ST	O	1	Unique Document File Name
+17	2	ID	R	1	Document Completion Status
+18	2	ID	O	1	Document Confidentiality Status
+19	2	ID	O	1	Document Availability Status
+20	2	ID	O	1	Document Storage Status
+21	30	ST	C	1	Document Change Reason
+22	60	PPN	C	*	Authentication Person, Time Stamp
+23	60	XCN	O	*	Distributed Copies

@@ -1,0 +1,24 @@
+RXG
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	NM	R	1	Give Sub-ID Counter
+2	4	NM	O	1	Dispense Sub-ID Counter
+3	200	TQ	R	1	Quantity/Timing
+4	100	CE	R	1	Give Code
+5	20	NM	R	1	Give Amount - Minimum
+6	20	NM	O	1	Give Amount - Maximum
+7	60	CE	R	1	Give Units
+8	60	CE	O	1	Give Dosage Form
+9	200	CE	O	*	Administration Notes
+10	1	ID	O	1	Substitution Status
+11	200	LA2	O	1	Dispense-To Location
+12	1	ID	O	1	Needs Human Review
+13	200	CE	O	*	Pharmacy/Treatment Supplier s Special Administration Instructions
+14	20	ST	C	1	Give Per
+15	6	ST	O	1	Give Rate Amount
+16	60	CE	O	1	Give Rate Units
+17	20	NM	O	1	Give Strength
+18	60	CE	O	1	Give Strength Units
+19	20	ST	O	*	Substance Lot Number
+20	26	TS	O	*	Substance Expiration Date
+21	60	CE	O	*	Substance Manufacturer Name
+22	200	CE	O	*	Indication

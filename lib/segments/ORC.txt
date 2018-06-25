@@ -1,0 +1,33 @@
+ORC
+SEQ	LEN	DT	OPT	RP/#	ELEMENT NAME
+1	2	ID	R	1	Order Control
+2	22	EI	C	1	Placer Order Number
+3	22	EI	C	1	Filler Order Number
+4	22	EI	O	1	Placer Group Number
+5	2	ID	O	1	Order Status
+6	1	ID	O	1	Response Flag
+7	200	TQ	B	*	Quantity/Timing
+8	200	EIP	O	1	Parent Order
+9	26	TS	O	1	Date/Time of Transaction
+10	250	XCN	O	*	Entered By
+11	250	XCN	O	*	Verified By
+12	250	XCN	O	*	Ordering Provider
+13	80	PL	O	1	Enterer's Location
+14	250	XTN	O	*	Call Back Phone Number
+15	26	TS	O	1	Order Effective Date/Time
+16	250	CE	O	1	Order Control Code Reason
+17	250	CE	O	1	Entering Organization
+18	250	CE	O	1	Entering Device
+19	250	XCN	O	*	Action By
+20	250	CE	O	1	Advanced Beneficiary Notice Code
+21	250	XON	O	*	Ordering Facility Name
+22	250	XAD	O	*	Ordering Facility Address
+23	250	XTN	O	*	Ordering Facility Phone Number
+24	250	XAD	O	*	Ordering Provider Address
+25	250	CWE	O	1	Order Status Modifier
+26	60	CWE	C	1	Advanced Beneficiary Notice Override Reason
+27	26	TS	O	1	Filler's Expected Availability Date/Time
+28	250	CWE	O	1	Confidentiality Code
+29	250	CWE	O	1	Order Type
+30	250	CNE	O	1	Enterer Authorization Mode
+31	250	CWE	O	1	Parent Universal Service Identifier

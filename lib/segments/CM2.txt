@@ -1,0 +1,6 @@
+CM2
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	O	1	Set ID - CM2
+2	60	CE	R	1	Scheduled Time Point
+3	300	ST	O	1	Description of Time Point
+4	60	CE	R	200	Events Scheduled This Time Point

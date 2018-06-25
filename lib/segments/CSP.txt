@@ -1,0 +1,6 @@
+CSP
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	CE	R	1	Study Phase Identifier
+2	26	TS	R	1	Date/time Study Phase Began
+3	26	TS	O	1	Date/time Study Phase Ended
+4	60	CE	C	1	Study Phase Evaluability

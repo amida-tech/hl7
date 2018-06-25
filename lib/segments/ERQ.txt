@@ -1,0 +1,5 @@
+ERQ
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	32	ST	O	1	Query Tag
+2	60	CE	R	1	Event Identifier
+3	256	QIP	O	*	Input Parameter List

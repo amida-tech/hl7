@@ -1,0 +1,8 @@
+RXC
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	1	ID	R	1	RX Component Type
+2	100	CE	R	1	Component Code
+3	20	NM	R	1	Component Amount
+4	60	CE	R	1	Component Units
+5	20	NM	O	1	Component Strength
+6	60	CE	O	1	Component Strength Units

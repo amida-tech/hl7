@@ -1,0 +1,11 @@
+URS
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	20	ST	R	*	R/U Where Subject Definition
+2	26	TS	O	1	R/U When Data Start Date/Time
+3	26	TS	O	1	R/U When Data End Date/Time
+4	20	ST	O	*	R/U What User Qualifier
+5	20	ST	O	*	R/U Other Results Subject Definition
+6	12	ID	O	*	R/U Which Date/Time Qualifier
+7	12	ID	O	*	R/U Which Date/Time Status Qualifier
+8	12	ID	O	*	R/U Date/Time Selection Qualifier
+9	60	TQ	O	1	R/U Quantity/Timing Qualifier

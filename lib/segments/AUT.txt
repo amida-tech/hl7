@@ -1,0 +1,12 @@
+AUT
+SEQ	LENGTH	DT	OPT	RP/#	 ELEMENT NAME
+1	200	CE	O	1	 Authorizing Payor, Plan ID
+2	200	CE	R	1	 Authorizing Payor, Company ID
+3	45	ST	O	1	 Authorizing Payor, Company Name
+4	26	TS	O	1	 Authorization Effective Date
+5	26	TS	O	1	 Authorization Expiration Date
+6	30	EI	C	1	 Authorization Identifier
+7	25	CP	O	1	 Reimbursement Limit
+8	2	NM	O	1	 Requested Number of Treatments
+9	2	NM	O	1	 Authorized Number of Treatments
+10	26	TS	O	1	 Process Date

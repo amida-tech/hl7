@@ -1,0 +1,15 @@
+FAC
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	20	EI	R	1	Facility ID-FAC
+2	1	ID	O	1	Facility Type
+3	200	XAD	R	*	Facility Address
+4	44	XTN	R	1	Facility Telecommunication
+5	60	XCN	O	*	Contact Person
+6	60	ST	O	*	Contact Title
+7	200	XAD	O	*	Contact Address
+8	44	XTN	O	*	Contact Telecommunication
+9	60	XCN	R	*	Signature Authority
+10	60	ST	O	1	Signature Authority Title
+11	200	XAD	O	*	Signature Authority Address
+12	44	XTN	O	1	Signature Authority Telecommunication
+ 

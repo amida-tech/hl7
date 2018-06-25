@@ -1,0 +1,16 @@
+OM4
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	NM	O	1	Sequence Number - Test/Observation Master File
+2	1	ID	O	1	Derived Specimen
+3	60	TX	O	1	Container Description
+4	20	NM	O	1	Container Volume
+5	60	CE	O	1	Container Units
+6	60	CE	O	1	Specimen
+7	60	CE	O	1	Additive
+8	10240	TX	O	1	Preparation
+9	10240	TX	O	1	Special Handling Requirements
+10	20	CQ	O	1	Normal Collection Volume
+11	20	CQ	O	1	Minimum Collection Volume
+12	10240	TX	O	1	Specimen Requirements
+13	1	ID	O	*	Specimen Priorities
+14	20	CQ	O	1	Specimen Retention Time

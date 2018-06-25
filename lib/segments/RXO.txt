@@ -1,0 +1,25 @@
+RXO
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	100	CE	C	1	Requested Give Code
+2	20	NM	C	1	Requested Give Amount - Minimum
+3	20	NM	O	1	Requested Give Amount - Maximum
+4	60	CE	C	1	Requested Give Units
+5	60	CE	O	1	Requested Dosage Form
+6	200	CE	O	*	Provider s Pharmacy/Treatment Instructions
+7	200	CE	O	*	Provider s Administration Instructions
+8	200	LA1	O	1	Deliver-to Location
+9	1	ID	O	1	Allow Substitutions
+10	100	CE	O	1	Requested Dispense Code
+11	20	NM	O	1	Requested Dispense Amount
+12	60	CE	O	1	Requested Dispense Units
+13	3	NM	O	1	Number Of Refills
+14	60	XCN	C	*	Ordering Provider s DEA Number
+15	60	XCN	C	*	Pharmacist/Treatment Supplier s Verifier ID
+16	1	ID	O	1	Needs Human Review
+17	20	ST	C	1	Requested Give Per
+18	20	NM	O	1	Requested Give Strength
+19	60	CE	O	1	Requested Give Strength Units
+20	200	CE	O	*	Indication
+21	6	ST	O	1	Requested Give Rate Amount
+22	60	CE	O	1	Requested Give Rate Units
+23	10	CQ	O	1	Total Daily Dose

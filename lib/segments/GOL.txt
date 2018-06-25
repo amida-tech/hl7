@@ -1,0 +1,23 @@
+GOL
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	2	ID	R	1	Action Code
+2	26	TS	R	1	Action Date/Time
+3	80	CE	R	1	Goal ID
+4	60	EI	R	1	Goal Instance ID
+5	60	EI	O	1	Episode of Care ID
+6	60	NM	O	1	Goal List Priority
+7	26	TS	O	1	Goal Established Date/Time
+8	26	TS	O	1	Expected Goal Achieve Date/Time
+9	80	CE	O	1	Goal Classification
+10	80	CE	O	1	Goal Management Discipline
+11	80	CE	O	1	Current Goal Review Status
+12	26	TS	O	1	Current Goal Review Date/Time
+13	26	TS	O	1	Next Goal Review Date/Time
+14	26	TS	O	1	Previous Goal Review Date/Time
+15	200	TQ	O	1	Goal Review Interval
+16	80	CE	O	1	Goal Evaluation
+17	300	ST	O	*	Goal Evaluation Comment
+18	80	CE	O	1	Goal Life Cycle Status
+19	26	TS	O	1	Goal Life Cycle Status Date/Time
+20	80	CE	O	*	Goal Target Type
+21	80	XPN	O	*	Goal Target Name

@@ -1,0 +1,11 @@
+PRD
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	200	CE	R	*	Provider Role
+2	106	XPN	O	*	Provider Name
+3	60	XAD	O	*	Provider Address
+4	60	PL	O	1	Provider Location
+5	100	XTN	O	*	Provider Communication Information
+6	200	CE	O	1	Preferred Method Of Contact
+7	100	PI	O	*	Provider Identifiers
+8	26	TS	O	1	Effective Start Date of Provider Role
+9	26	TS	O	1	Effective End Date of Provider Role

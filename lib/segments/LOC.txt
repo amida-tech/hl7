@@ -1,0 +1,11 @@
+LOC
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	200	PL	R	1	Primary Key Value - LOC
+2	48	ST	O	1	Location Description
+3	2	IS	R	*	Location Type - LOC
+4	90	XON	O	*	Organization Name - LOC
+5	106	XAD	O	*	Location Address
+6	40	XTN	O	*	Location Phone
+7	60	CE	O	*	License Number
+8	3	IS	O	*	Location Equipment
+ 

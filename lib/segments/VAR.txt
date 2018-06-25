@@ -1,0 +1,8 @@
+VAR
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	EI	R	1	Variance Instance ID
+2	26	TS	R	1	Documented Date/Time
+3	26	TS	O	1	Stated Variance Date/Time
+4	80	XCN	O	*	Variance Originator
+5	60	CE	O	1	Variance Classification
+6	512	ST	O	*	Variance Description

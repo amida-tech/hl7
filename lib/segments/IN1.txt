@@ -1,0 +1,51 @@
+IN1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	R	1	Set ID - IN1
+2	60	CE	R	1	Insurance Plan ID
+3	59	CX	R	*	Insurance Company ID
+4	130	XON	O	*	Insurance Company Name
+5	106	XAD	O	*	Insurance Company Address
+6	48	XPN	O	*	Insurance Co Contact Person
+7	40	XTN	O	*	Insurance Co Phone Number
+8	12	ST	O	1	Group Number
+9	130	XON	O	*	Group Name
+10	12	CX	O	*	Insured s Group Emp ID
+11	130	XON	O	*	Insured s Group Emp Name
+12	8	DT	O	1	Plan Effective Date
+13	8	DT	O	1	Plan Expiration Date
+14	55	AUI	O	1	Authorization Information
+15	3	IS	O	1	Plan Type
+16	48	XPN	O	*	Name Of Insured
+17	80	CE	O	1	Insured s Relationship To Patient
+18	26	TS	O	1	Insured s Date Of Birth
+19	106	XAD	O	*	Insured s Address
+20	2	IS	O	1	Assignment Of Benefits
+21	2	IS	O	1	oordination Of Benefits
+22	2	ST	O	1	Coord Of Ben. Priority
+23	1	ID	O	1	Notice Of Admission Flag
+24	8	DT	O	1	Notice Of Admission Date
+25	1	ID	O	1	Report Of Eligibility Flag
+26	8	DT	O	1	Report Of Eligibility Date
+27	2	IS	O	1	Release Information Code
+28	15	ST	O	1	Pre-Admit Cert
+29	26	TS	O	1	Verification Date/Time
+30	60	XCN	O	*	Verification By
+31	2	IS	O	1	Type Of Agreement Code
+32	2	IS	O	1	Billing Status
+33	4	NM	O	1	Lifetime Reserve Days
+34	4	NM	O	1	Delay Before L.R. Day
+35	8	IS	O	1	Company Plan Code
+36	15	ST	O	1	Policy Number
+37	12	CP	O	1	Policy Deductible
+38	12	CP	B	1	Policy Limit - Amount
+39	4	NM	O	1	Policy Limit - Days
+40	12	CP	B	1	Room Rate - Semi-Private
+41	12	CP	B	1	Room Rate - Private
+42	60	CE	O	1	Insured s Employment Status
+43	1	IS	O	1	Insured s Sex
+44	106	XAD	O	*	Insured s Employer s Address
+45	2	ST	O	1	Verification Status
+46	8	IS	O	1	Prior Insurance Plan ID
+47	3	IS	O	1	Coverage Type
+48	2	IS	O	1	Handicap
+49	12	CX	O	*	Insured s ID Number

@@ -1,0 +1,5 @@
+BLG
+SEQ	LENGTH	DT	OPT	RP/#	 ELEMENT NAME
+1	40	CCD	O	1	 When to Charge
+2	50	ID	O	1	 Charge Type
+3	100	CX	O	1	 Account ID

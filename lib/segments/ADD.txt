@@ -1,0 +1,3 @@
+ADD
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	65536	ST	O	1	Addendum Continuation Pointer

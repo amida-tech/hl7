@@ -1,0 +1,25 @@
+UB1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	O	1	Set ID - UB1
+2	1	NM	B	1	Blood Deductible
+3	2	NM	O	1	Blood Furnished-Pints Of
+4	2	NM	O	1	Blood Replaced-Pints
+5	2	NM	O	1	Blood Not Replaced-Pints
+6	2	NM	O	1	Co-Insurance Days
+7	14	IS	O	5	Condition Code
+8	3	NM	O	1	Covered Days -
+9	3	NM	O	1	Non Covered Days -
+10	12	UVC	O	8	Value Amount & Code
+11	2	NM	O	1	Number Of Grace Days
+12	60	CE	O	1	Special Program Indicator
+13	60	CE	O	1	PSRO/UR Approval Indicator
+14	8	DT	O	1	PSRO/UR Approved Stay-Fm
+15	8	DT	O	1	PSRO/UR Approved Stay-To
+16	20	OCD	O	5	Occurrence
+17	60	CE	O	1	Occurrence Span
+18	8	DT	O	1	Occur Span Start Date
+19	8	DT	O	1	Occur Span End Date
+20	30	ST	O	1	UB-82 Locator 2
+21	7	ST	O	1	UB-82 Locator 9
+22	8	ST	O	1	UB-82 Locator 27
+23	17	ST	O	1	UB-82 Locator 45

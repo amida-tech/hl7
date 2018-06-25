@@ -1,0 +1,12 @@
+AIS
+SEQ	LENGTH	DT	OPT	RP/#	 ELEMENT NAME
+1	4	SI	R	1	 Set ID - AIS
+2	3	ID	C	1	 Segment Action Code
+3	200	CE	R	1	 Universal Service ID
+4	26	TS	C	1	 Start Date/Time
+5	20	NM	C	1	 Start Date/Time Offset
+6	200	CE	C	1	 Start Date/Time Offset Units
+7	20	NM	O	1	 Duration
+8	200	CE	O	1	 Duration Units
+9	10	IS	C	1	 Allow Substitution Code
+10	200	CE	C	1	 Filler Status Code

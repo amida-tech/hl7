@@ -1,0 +1,5 @@
+RGS
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	R	1	Set ID - RGS
+2	3	ID	C	1	Segment Action Code
+3	200	CE	O	1	Resource Group ID

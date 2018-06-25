@@ -1,0 +1,5 @@
+OM5
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	NM	O	1	Sequence Number - Test/Observation Master File
+2	200	CE	O	*	Test/Observations Included within an Ordered Test Battery
+3	200	ST	O	1	Observation ID Suffixes

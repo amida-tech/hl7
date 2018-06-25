@@ -10,7 +10,7 @@ SEQ	LEN	DT	OPT	RP/#	ELEMENT NAME
 8	5	ID	O	Y/5	Abnormal Flags
 9	5	NM	O	 	Probability
 10	2	ID	O	 	Nature of Abnormal Test
-11	1	ID	R	 	Observ Result Status
+11	1	ID	R	 	Observation Result Status
 12	26	TS	O	 	Data Last Obs Normal Values
 13	20	ST	O	 	User Defined Access Checks
 14	26	TS	O	 	Date/Time of the Observation

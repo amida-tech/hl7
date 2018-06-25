@@ -1,0 +1,11 @@
+NSC
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	0	IS	O	1	Network Change Type
+2	0	ST	O	1	Current CPU
+3	0	ST	O	1	Current Fileserver
+4	0	ST	O	1	Current Application
+5	0	ST	O	1	Current Facility
+6	0	ST	O	1	New CPU
+7	0	ST	O	1	New Fileserver
+8	0	ST	O	1	New Application
+9	0	ST	O	1	New Facility

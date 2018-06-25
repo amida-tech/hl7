@@ -1,0 +1,22 @@
+IAM
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	SI	R	1	Set ID - IAM
+2	250	CE	O	1	Allergen Type Code
+3	250	CE	R	1	Allergen Code/Mnemonic/Description
+4	250	CE	O	1	Allergy Severity Code
+5	15	ST	O	*	Allergy Reaction Code
+6	250	CNE	R	1	Allergy Action Code
+7	80	EI	R	1	Allergy Unique Identifier
+8	60	ST	O	1	Action Reason
+9	250	CE	O	1	Sensitivity to Causative Agent Code
+10	250	CE	O	1	Allergen Group Code/Mnemonic/Description
+11	8	DT	O	1	Onset Date
+12	60	ST	O	1	Onset Date Text
+13	8	TS	O	1	Reported Date/Time
+14	250	XPN	O	1	Reported By
+15	250	CE	O	1	Relationship to Patient Code
+16	250	CE	O	1	Alert Device Code
+17	250	CE	O	1	Allergy Clinical Status Code
+18	250	XCN	O	1	Statused by Person
+19	250	XON	O	1	Statused by Organization
+20	8	TS	O	1	Statused at Date/Time 

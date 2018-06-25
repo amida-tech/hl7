@@ -1,0 +1,16 @@
+AIG
+SEQ	LENGTH	DT	OPT	RP/#	 ELEMENT NAME
+1	4	SI	R	1	 Set ID - AIG
+2	3	ID	C	1	 Segment Action Code
+3	200	CE	C	1	 Resource ID
+4	200	CE	R	1	 Resource Type
+5	200	CE	O	*	 Resource Group
+6	5	NM	O	1	 Resource Quantity
+7	200	CE	O	1	 Resource Quantity Units
+8	26	TS	C	1	 Start Date/Time
+9	20	NM	C	1	 Start Date/Time Offset
+10	200	CE	C	1	 Start Date/Time Offset Units
+11	20	NM	O	1	 Duration
+12	200	CE	O	1	 Duration Units
+13	10	IS	C	1	 Allow Substitution Code
+14	200	CE	C	1	 Filler Status Code

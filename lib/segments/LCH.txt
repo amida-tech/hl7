@@ -1,0 +1,7 @@
+LCH
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	200	PL	R	1	Primary Key Value - LCH
+2	3	ID	O	1	Segment Action Code
+3	80	EI	O	1	Segment Unique Key
+4	80	CE	R	1	Location Characteristic ID
+5	80	CE	R	1	Location Characteristic Value

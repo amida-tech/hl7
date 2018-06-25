@@ -1,0 +1,4 @@
+OM6
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	NM	O	1	Sequence Number - Test/Observation Master File
+2	10240	TX	O	1	Derivation Rule

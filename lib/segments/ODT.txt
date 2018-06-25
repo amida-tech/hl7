@@ -1,0 +1,5 @@
+ODT
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	CE	R	1	Tray Type
+2	60	CE	O	10	Service Period
+3	80	ST	O	1	Text Instruction

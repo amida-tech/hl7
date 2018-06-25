@@ -1,0 +1,25 @@
+PCR
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	CE	R	1	Implicated Product
+2	1	IS	O	1	Generic Product
+3	60	CE	O	1	Product Class
+4	8	CQ	O	1	Total Duration Of Therapy
+5	26	TS	O	1	Product Manufacture Date
+6	26	TS	O	1	Product Expiration Date
+7	26	TS	O	1	Product Implantation Date
+8	26	TS	O	1	Product Explantation Date
+9	8	IS	O	1	Single Use Device
+10	60	CE	O	1	Indication For Product Use
+11	8	IS	O	1	Product Problem
+12	30	ST	O	3	Product Serial/Lot Number
+13	1	IS	O	1	Product Available For Inspection
+14	60	CE	O	1	Product Evaluation Performed
+15	60	CE	O	1	Product Evaluation Status
+16	60	CE	O	1	Product Evaluation Results
+17	8	ID	O	1	Evaluated Product Source
+18	26	TS	O	1	Date Product Returned To Manufacturer
+19	1	ID	O	1	Device Operator Qualifications
+20	1	ID	O	1	Relatedness Assessment
+21	2	ID	O	6	Action Taken In Response To The Event
+22	2	ID	O	6	Event Causality Observations
+23	1	ID	O	3	Indirect Exposure Mechanism

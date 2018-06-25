@@ -1,0 +1,9 @@
+RQ1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	10	ST	O	1	Anticipated Price
+2	60	CE	C	1	Manufacturer ID
+3	16	ST	C	1	Manufacturer s Catalog
+4	60	CE	C	1	Vendor ID
+5	16	ST	C	1	Vendor Catalog
+6	1	ID	O	1	Taxable
+7	1	ID	O	1	Substitute Allowed

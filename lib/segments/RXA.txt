@@ -1,0 +1,24 @@
+RXA
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	4	NM	R	1	Give Sub-ID Counter
+2	4	NM	R	1	Administration Sub-ID Counter
+3	26	TS	R	1	Date/Time Start of Administration
+4	26	TS	R	1	Date/Time End of Administration
+5	100	CE	R	1	Administered Code
+6	20	NM	R	1	Administered Amount
+7	60	CE	C	1	Administered Units
+8	60	CE	O	1	Administered Dosage Form
+9	200	CE	O	*	Administration Notes
+10	200	XCN	O	*	Administering Provider
+11	200	LA2	C	1	Administered-at Location
+12	20	ST	C	1	Administered Per
+13	20	NM	O	1	Administered Strength
+14	60	CE	O	1	Administered Strength Units
+15	20	ST	O	*	Substance Lot Number
+16	26	TS	O	*	Substance Expiration Date
+17	60	CE	O	*	Substance Manufacturer Name
+18	200	CE	O	*	Substance Refusal Reason
+19	200	CE	O	*	Indication
+20	2	ID	O	1	Completion Status
+21	2	ID	O	1	Action Code-RXA
+22	26	TS	O	1	System Entry Date/Time

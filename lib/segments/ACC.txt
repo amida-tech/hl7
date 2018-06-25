@@ -1,0 +1,8 @@
+ACC
+SEQ	LENGTH	DT	OPT	RP/#	 ELEMENT NAME
+1	26	TS	O	1	 Accident Date/Time
+2	60	CE	O	1	 Accident Code
+3	25	ST	O	1	 Accident Location
+4	60	CE	O	1	 Auto Accident State
+5	1	ID	O	1	 Accident Job Related Indicator
+6	12	ID	O	1	 Accident Death Indicator

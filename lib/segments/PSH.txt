@@ -1,0 +1,16 @@
+PSH
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	ST	R	1	Report Type
+2	60	ST	O	1	Report Form Identifier
+3	26	TS	R	1	Report Date
+4	26	TS	O	1	Report Interval Start Date
+5	26	TS	O	1	Report Interval End Date
+6	12	CQ	O	1	Quantity Manufactured
+7	12	CQ	O	1	Quantity Distributed
+8	1	ID	O	1	Quantity Distributed Method
+9	600	FT	O	1	Quantity Distributed Comment
+10	12	CQ	O	1	Quantity in Use
+11	1	ID	O	1	Quantity in Use Method
+12	600	FT	O	1	Quantity in Use Comment
+13	2	NM	O	8	Number of Product Experience Reports Filed by Facility
+14	2	NM	O	8	Number of Product Experience Reports Filed by Distributor

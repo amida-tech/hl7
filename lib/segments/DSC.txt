@@ -1,0 +1,3 @@
+DSC
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	180	ST	O	1	Continuation Pointer

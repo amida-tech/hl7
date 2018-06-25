@@ -1,0 +1,9 @@
+MRG
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	20	CX	R	*	Prior Patient Identifier List
+2	20	CX	O	*	Prior Alternate Patient ID
+3	20	CX	O	1	Prior Patient Account Number
+4	20	CX	O	1	Prior Patient ID
+5	20	CX	O	1	Prior Visit Number
+6	20	CX	O	1	Prior Alternate Visit ID
+7	48	XPN	O	*	Prior Patient Name

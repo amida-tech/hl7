@@ -1,0 +1,14 @@
+AIP
+SEQ	LENGTH	DT	OPT	RP/#	 ELEMENT NAME
+1	4	SI	R	1	 Set ID - AIP
+2	3	ID	C	1	 Segment Action Code
+3	80	XCN	C	*	 Personnel Resource ID
+4	200	CE	R	1	 Resource Role
+5	200	CE	O	1	 Resource Group
+6	26	TS	C	1	 Start Date/Time
+7	20	NM	C	1	 Start Date/Time Offset
+8	200	CE	C	1	 Start Date/Time Offset Units
+9	20	NM	O	1	 Duration
+10	200	CE	O	1	 Duration Units
+11	10	IS	C	1	 Allow Substitution Code
+12	200	CE	C	1	 Filler Status Code

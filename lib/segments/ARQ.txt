@@ -1,0 +1,25 @@
+ARQ
+SEQ	LENGTH	DT	OPT	RP/#	 ELEMENT NAME
+1	75	EI	R	1	 Placer Appointment ID
+2	75	EI	C	1	 Filler Appointment ID
+3	5	NM	C	1	 Occurrence Number
+4	22	EI	O	1	 Placer Group Number
+5	200	CE	O	1	 Schedule ID
+6	200	CE	O	1	 Request Event Reason
+7	200	CE	O	1	 Appointment Reason
+8	200	CE	O	1	 Appointment Type
+9	20	NM	O	1	 Appointment Duration
+10	200	CE	O	1	 Appointment Duration Units
+11	53	DR	O	*	 Requested Start Date/Time Range
+12	5	ST	O	1	 Priority-ARQ
+13	100	RI	O	1	 Repeating Interval
+14	5	ST	O	1	 Repeating Interval Duration
+15	48	XCN	R	*	 Placer Contact Person
+16	40	XTN	O	*	 Placer Contact Phone Number
+17	106	XAD	O	*	 Placer Contact Address
+18	80	PL	O	1	 Placer Contact Location
+19	48	XCN	R	*	 Entered by Person
+20	40	XTN	O	*	 Entered by Phone Number
+21	80	PL	O	1	 Entered by Location
+22	75	EI	O	1	 Parent Placer Appointment ID
+23	75	EI	O	1	 Parent Filler Appointment ID

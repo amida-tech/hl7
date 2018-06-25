@@ -1,0 +1,7 @@
+RXR
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	60	CE	R	1	Route
+2	60	CE	O	1	Site
+3	60	CE	O	1	Administration Device
+4	60	CE	O	1	Administration Method
+5	60	CE	O	1	Routing Instruction

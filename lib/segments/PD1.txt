@@ -1,0 +1,14 @@
+PD1
+SEQ	LENGTH	DT	OPT	RP/#	ELEMENT NAME
+1	2	IS	O	*	Living Dependency
+2	2	IS	O	1	Living Arrangement
+3	90	XON	O	*	Patient Primary Facility
+4	90	XCN	O	*	Patient Primary Care Provider Name & ID No.
+5	2	IS	O	1	Student Indicator
+6	2	IS	O	1	Handicap
+7	2	IS	O	1	Living Will
+8	2	IS	O	1	Organ Donor
+9	1	ID	O	1	Separate Bill
+10	20	CX	O	*	Duplicate Patient
+11	80	CE	O	1	Publicity Code
+12	1	ID	O	1	Protection Indicator
