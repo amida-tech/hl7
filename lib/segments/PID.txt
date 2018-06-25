@@ -1,3 +1,4 @@
+
 PID
 SEQ	LEN	DT	OPT	RP/#	ELEMENT NAME
 1	4	SI	O		Set ID – Patient ID
