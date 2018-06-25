@@ -1,10 +1,10 @@
 {
   "name": "hl7",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Parsing HL7 into JSON",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
@@ -20,12 +20,7 @@
     "url": "https://github.com/amida-tech/hl7/issues"
   },
   "homepage": "https://github.com/amida-tech/hl7",
-  "licenses": [
-    {
-      "type": "Apache 2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-    }
-  ],
+  "license": "Apache-2.0",
   "devDependencies": {
     "grunt": "0.4.x",
     "grunt-contrib-jshint": "0.8.x",
