@@ -1,4 +1,4 @@
-hl7
+HL7
 =========
 
 HL7 v2 parser/serializer in JavaScript 
@@ -35,41 +35,39 @@ OBX|1|SN|1554-5^GLUCOSE^POST 12H CFST:MCNC:PT:SER/PLAS:QN||^182|mg/dl|70_105|H||
 	[[""]],
 	[[""]],
 	[["555-444-4444"]],
-
 	]
 ]
 ```
 
 
-##Quick up and running quide
+## Quick up and running quide
 
-###Prerequisites
+### Prerequisites
 
-- Node.js (v0.10+) and NPM
+- Node.js (v14.19+) and NPM
 - Grunt.js
 
 ```
 # you need Node.js and Grunt.js installed
 # and MongoDB + Redis runnning
 
-#install dependencies and build
+# install dependencies and build
 npm install
 grunt
-
 ```
 
-##Additional message types
+## Additional message types
 Currently, Amida's Node-only HL7 library does not provide full HL7 coverage. For a more complete implementation built on the Java HAPI HL7 implementation, see https://github.com/MatthewVita/node-hl7-complete. Keep in mind that running this library requires the use of Java 7.
 
 The HAPI library exports two functions, `jsToHl7` and `hl7ToJs`. If you want to use the HAPI library as a drop-in for this library, replace `parseString(data)` with `hl7ToJs(data, callback)`, and replace `serializeJSON(data, options)` with `jsToHl7(dataType, data, callback)`.
 
 ## Contributing
 
-Contributors are welcome. See issues https://github.com/amida-tech/hl7/issues
+Contributors are welcome. See [issues](https://github.com/amida-tech/hl7/issues)
 
 ## Release Notes
 
-See release notes [here] (./RELEASENOTES.md)
+See release notes [here](./RELEASENOTES.md)
 
 ## License
 

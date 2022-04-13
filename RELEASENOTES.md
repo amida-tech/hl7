@@ -1,8 +1,15 @@
-# hl7 Release Notes
+# HL7 Release Notes
 
-# v0.1.0 - December 12, 2014
+## v1.1.2 - April 13, 2022
 
-Initial release of the library
+### Patch Update
+
+- Upgraded dev dependencies
+- Switch to jest for testing and coverage
+
+## v0.1.0 - December 12, 2014
+
+### Initial release of the library
 
 - Supports ORU^R01 (Lab Results) HL7 v 2.3-2.5 messages.
 - Following segments are implemented MSH, PID, OBR, OBX, NTE
