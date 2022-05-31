@@ -1,5 +1,11 @@
 # HL7 Release Notes
 
+## v1.1.2 - May 31, 2022
+
+### Patch Update
+
+- GHSA-rm36-94g8-835r - Race Condition in Grunt
+
 ## v1.1.2 - April 13, 2022
 
 ### Patch Update

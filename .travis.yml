@@ -1,9 +1,9 @@
 language: node_js
 node_js:
-  - "14.19.1"
+  - "14.19.3"
 
 before_script:
-  - npm install -g grunt-cli@1.4.3
+  - npm install -g grunt-cli
   - npm install --quiet
 
 #services:

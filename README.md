@@ -47,12 +47,10 @@ OBX|1|SN|1554-5^GLUCOSE^POST 12H CFST:MCNC:PT:SER/PLAS:QN||^182|mg/dl|70_105|H||
 - Node.js (v14.19+) and NPM
 - Grunt.js
 
-```
-# you need Node.js and Grunt.js installed
-# and MongoDB + Redis runnning
-
+```sh
 # install dependencies and build
-npm install
+
+npm i
 grunt
 ```
 
