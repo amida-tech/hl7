@@ -53,8 +53,12 @@ module.exports = function (grunt) {
       }
     },
     run: {
-      jest: {
+      test: {
         exec: 'npx jest',
+        args: ['test']
+      },
+      coverage: {
+        exec: 'npx jest --coverage',
         args: ['test']
       }
     }
